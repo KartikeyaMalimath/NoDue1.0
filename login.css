@@ -1,0 +1,133 @@
+/*-----------------------------------
+  Author : Kartikeya P. Malimath;
+------------------------------------*/
+
+body {
+  background: url("image/top3.jpg");
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  font-family: "Roboto";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-repeat: no-repeat;
+  overflow-x: hidden;
+}
+body::before {
+  z-index: -1;
+  content: '';
+  position: fixed;
+  top: 0;
+  left: 0;
+  background: #ef5350;
+  /* IE Fallback */
+  background: rgba(43, 48, 44, 0.8);
+  width: 100%;
+  height: 100%;
+}
+.form {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  background: #fff;
+  width: 350px;
+  height: 360px;
+  margin: -140px 0 0 -182px;
+  padding: 60px;
+  box-shadow: 0 0 100px rgba(76, 244, 241, 0.5);
+}
+.form h2 {
+  margin: 0 0 20px;
+  line-height: 1;
+  color: #2ecc71;
+  font-size: 18px;
+  font-weight: 400;
+}
+.form input {
+  outline: none;
+  display: block;
+  width: 100%;
+  margin: 0 0 20px;
+  padding: 10px 15px;
+  border: 1px solid #ccc;
+  color: #ccc;
+  font-family: "Roboto";
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  font-size: 14px;
+  font-wieght: 400;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-transition: 0.2s linear;
+  -moz-transition: 0.2s linear;
+  -ms-transition: 0.2s linear;
+  -o-transition: 0.2s linear;
+  transition: 0.2s linear;
+}
+.form input:focus {
+  color: #333;
+  border: 1px solid #2ecc71;
+}
+.form button {
+  cursor: pointer;
+  background: #2ecc71;
+  width: 100%;
+  padding: 10px 15px;
+  border: 0;
+  color: #fff;
+  font-family: "Roboto";
+  font-size: 14px;
+  font-weight: 400;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-transition: 0.2s linear;
+  -moz-transition: 0.2s linear;
+  -ms-transition: 0.2s linear;
+  -o-transition: 0.2s linear;
+  transition: 0.2s linear;
+}
+.form button:hover {
+  background: #27ae60;
+}
+
+select {
+    width: 100%;
+    padding: 16px 20px;
+    border: none;
+    border-radius: 4px;
+    background-color: #f1f1f1;
+    margin-bottom: 10px;
+}
+
+
+.user
+{
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  overflow: hidden;
+  position: absolute;
+  top: calc(-100px/2);
+  left: calc(50% - 50px);
+}
+
+#navbar {
+  overflow: hidden;
+  background-color: #333;
+  color: #ffffff;
+  padding: 5px;
+  padding-left: 20px;
+  top: 0px;
+}
+
+.footer {
+  position: absolute; 
+  bottom: 0;
+  left: 0;
+    width: 100%;
+    background-color: rgba(0,0,0,1);
+    color: white;
+    text-align: center;
+}

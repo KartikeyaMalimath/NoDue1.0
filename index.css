@@ -1,0 +1,158 @@
+/*-----------------------------------
+	Author : Kartikeya P. Malimath;
+------------------------------------*/
+body {
+	padding: 0;
+	margin: 0;
+	font-family: sans-serif;
+	overflow-x: hidden;
+	-webkit-box-sizing: border-box;
+	-webkit-text-size-adjust: 100%;
+	-webkit-box-orient: vertical;
+	background-image: linear-gradient(to bottom, #424242 100%, #f5f5f5 0%);
+}
+
+.container-fluid {
+	background-image: url("image/top3.jpg");
+	height: 600px;
+	width: 100%;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: relative;
+	margin: 0;
+	padding: 5%;
+}
+
+.jumbotron{
+	position: relative;
+	height: 1050px;
+	width: 100%;
+	top: 250px;
+	background-color: rgba(0,0,0,.5);
+	color: #000000;
+	width: 80%
+	padding: 200px;
+}
+
+.card {
+	box-shadow: 0 4px 8px 0 rgba(255,255,255,.5);
+    transition: 0.3s;
+    width: 80%;
+    height: 10%;
+    background-color: #ffffff;
+    overflow-wrap: auto;
+}
+
+.grad1 {
+	background: #ff0084;  /* fallback for old browsers */
+	background: -webkit-linear-gradient(to right, #33001b, #ff0084);  /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to right, #33001b, #ff0084); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+	color: rgba(0,0,0,0);
+}
+
+.grad2 {
+	background: #2c3e50;  /* fallback for old browsers */
+	background: -webkit-linear-gradient(to right, #3498db, #2c3e50);  /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to right, #3498db, #2c3e50); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+	color: rgba(0,0,0,0);
+}
+
+.grad3 {
+	background: #1e130c;  /* fallback for old browsers */
+	background: -webkit-linear-gradient(to right, #9a8478, #1e130c);  /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to right, #9a8478, #1e130c); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+	color: rgba(0,0,0,0);
+}
+
+.grad4 {
+	background: #00bf8f;  /* fallback for old browsers */
+	background: -webkit-linear-gradient(to right, #001510, #00bf8f);  /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to right, #001510, #00bf8f); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+	color: rgba(0,0,0,0);
+}
+
+.grad5 {
+	background: #485563;  /* fallback for old browsers */
+	background: -webkit-linear-gradient(to right, #29323c, #485563);  /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to right, #29323c, #485563); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+	color: rgba(0,0,0,0);
+}
+
+.grad6 {
+	color: rgba(0,0,0,0);
+	background: #8E0E00;  /* fallback for old browsers */
+	background: -webkit-linear-gradient(to right, #1F1C18, #8E0E00);  /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to right, #1F1C18, #8E0E00); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.contain {
+	padding-bottom: 20px;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+.card:hover {
+    box-shadow: 0 16px 32px 0 rgba(255,255,255,0.5);
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+
+#navbar {
+  overflow: hidden;
+  background-color: #333;
+  color: #ffffff;
+  padding-top: 5px;
+  padding-left: 20px;
+  top: 0px;
+  padding-right: 20px;
+  vertical-align: center;
+}
+
+.footer {
+	position: absolute;	
+	bottom: 0;
+	left: 0;
+   	width: 100%;
+   	background-color: rgba(0,0,0,1);
+   	color: white;
+   	text-align: center;
+}
+
+.column {
+	float: center;
+    float: left;
+    width: 50%;
+    padding: 15px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+@media screen and (max-width:600px) {
+    .column {
+        width: 100%;
+    }
+}
+
+
+.button {
+   	border-radius: 4px;
+	float: right;
+	background-color: #555555;
+    border: none;
+    color: black;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
